@@ -1,0 +1,30 @@
+.titulo{
+    background-color: red;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.logoFIA{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 134px;
+    height: 134px;
+}
+.logoFormula1{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 134px;
+    height: 134px;
+}
+.barra{
+    position: fixed;
+    width: 100%;
+}
+body{   
+    margin: 0;
+    padding: 0;
+}
