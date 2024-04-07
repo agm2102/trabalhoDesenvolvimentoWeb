@@ -1,30 +1,44 @@
 .titulo{
-    background-color: red;
-    text-align: center;
-    padding: 50px;
+    padding: 30px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
+    text-align: center;
 }
 .logoFIA{
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 134px;
-    height: 134px;
+    width: 94px;
+    height: 94px;
 }
 .logoFormula1{
     position: absolute;
     top: 0px;
     right: 0px;
-    width: 134px;
-    height: 134px;
+    width: 94px  ;
+    height: 94px;
 }
 .barra{
     position: fixed;
     width: 100%;
+    background-color: red;    
+}
+.table{
+    position: absolute ;
+    top: 200px;
+    color: rgb(0, 0, 0);
+    border-collapse: collapse;
+    background-color: beige;
+    left: 25%;
+    
+}
+td{
+    border: solid orange 2px;
 }
 body{   
     margin: 0;
     padding: 0;
+    background-image: url(images/background.jpg);
+    background-size: cover;
 }
