@@ -51,33 +51,41 @@ table {
     padding-top: 10px;
     display: flex;
     justify-content: space-between;
+    margin-left: 89px;
+    margin-right: 89px;
 }
+
 .conteinerTable {
     padding-top: 10px;
     display: flex;
     justify-content: center;
 }
-.tableEtapa{
+
+.tableEtapa {
     font-size: 11px;
-    width: 70.5dvh;
+    width: 60dvh;
     height: 69dvh;
 }
-.tituloEtapaTable{
+
+.tituloEtapaTable {
     font-size: 13px;
     color: chartreuse;
     padding: 3px;
 }
-img{
+
+img {
     width: 25px;
-    height: 20px;   
+    height: 20px;
 }
+
 .tableEtapa img {
     width: 15px;
     height: 10px;
 }
+
 td {
-    border: solid rgb(25, 0, 255) 2px; 
-    padding: 3px; 
+    border: solid rgb(25, 0, 255) 2px;
+    padding: 3px;
 }
 
 .tituloTable {
@@ -91,7 +99,8 @@ td {
     margin: 5px;
     font-size: 30px;
 }
-.celulaTituloEtapa{
+
+.celulaTituloEtapa {
     color: orangered;
     margin: 2px;
     font-size: 12px;
